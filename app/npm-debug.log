@@ -1,0 +1,127 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ejs,',
+1 verbose cli   'mongoose,',
+1 verbose cli   'express' ]
+2 info using npm@3.10.10
+3 info using node@v6.17.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData ejs,
+8 silly fetchPackageMetaData mongoose,
+9 silly fetchPackageMetaData express@^4.14.0
+10 silly fetchNamedPackageData express
+11 silly mapToRegistry name express
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'express',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'express',
+14 silly mapToRegistry   name: 'express',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/express
+16 silly fetchOtherPackageData ejs,
+17 silly cache add args [ 'ejs,', null ]
+18 verbose cache add spec ejs,
+19 silly fetchOtherPackageData mongoose,
+20 silly cache add args [ 'mongoose,', null ]
+21 verbose cache add spec mongoose,
+22 verbose request uri https://registry.npmjs.org/express
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 2:47:41 PM
+25 verbose request id 6b95d589d5879d38
+26 http request GET https://registry.npmjs.org/express
+27 silly cache add parsed spec Result {
+27 silly cache add   raw: 'ejs,',
+27 silly cache add   scope: null,
+27 silly cache add   escapedName: null,
+27 silly cache add   name: null,
+27 silly cache add   rawSpec: 'ejs,',
+27 silly cache add   spec: '/home/ubuntu/app/ejs,',
+27 silly cache add   type: 'local' }
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'mongoose,',
+28 silly cache add   scope: null,
+28 silly cache add   escapedName: null,
+28 silly cache add   name: null,
+28 silly cache add   rawSpec: 'mongoose,',
+28 silly cache add   spec: '/home/ubuntu/app/mongoose,',
+28 silly cache add   type: 'local' }
+29 error addLocal Could not install /home/ubuntu/app/ejs,
+30 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/home/ubuntu/app/ejs,'
+30 silly fetchPackageMetaData     at Error (native)
+30 silly fetchPackageMetaData  error for ejs, { Error: ENOENT: no such file or directory, open '/home/ubuntu/app/ejs,'
+30 silly fetchPackageMetaData     at Error (native)
+30 silly fetchPackageMetaData   errno: -2,
+30 silly fetchPackageMetaData   code: 'ENOENT',
+30 silly fetchPackageMetaData   syscall: 'open',
+30 silly fetchPackageMetaData   path: '/home/ubuntu/app/ejs,' }
+31 error addLocal Could not install /home/ubuntu/app/mongoose,
+32 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/home/ubuntu/app/mongoose,'
+32 silly fetchPackageMetaData     at Error (native)
+32 silly fetchPackageMetaData  error for mongoose, { Error: ENOENT: no such file or directory, open '/home/ubuntu/app/mongoose,'
+32 silly fetchPackageMetaData     at Error (native)
+32 silly fetchPackageMetaData   errno: -2,
+32 silly fetchPackageMetaData   code: 'ENOENT',
+32 silly fetchPackageMetaData   syscall: 'open',
+32 silly fetchPackageMetaData   path: '/home/ubuntu/app/mongoose,' }
+33 http 200 https://registry.npmjs.org/express
+34 verbose headers { date: 'Wed, 08 Jan 2020 14:47:42 GMT',
+34 verbose headers   'content-type': 'application/json',
+34 verbose headers   'transfer-encoding': 'chunked',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'set-cookie': [ '__cfduid=deeb2929c33d37b9bc95f6c3638d1dde41578494862; expires=Fri, 07-Feb-20 14:47:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+34 verbose headers   'cf-ray': '551ef7ddafb7dbeb-LHR',
+34 verbose headers   age: '4384',
+34 verbose headers   'cache-control': 'public, max-age=300',
+34 verbose headers   etag: 'W/"e0b4c6934f9881d82102a3b51f4ed785"',
+34 verbose headers   'last-modified': 'Sun, 05 Jan 2020 11:17:26 GMT',
+34 verbose headers   vary: 'accept-encoding, accept',
+34 verbose headers   'cf-cache-status': 'HIT',
+34 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 verbose headers   server: 'cloudflare',
+34 verbose headers   'content-encoding': 'gzip' }
+35 silly get cb [ 200,
+35 silly get   { date: 'Wed, 08 Jan 2020 14:47:42 GMT',
+35 silly get     'content-type': 'application/json',
+35 silly get     'transfer-encoding': 'chunked',
+35 silly get     connection: 'keep-alive',
+35 silly get     'set-cookie': [ '__cfduid=deeb2929c33d37b9bc95f6c3638d1dde41578494862; expires=Fri, 07-Feb-20 14:47:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+35 silly get     'cf-ray': '551ef7ddafb7dbeb-LHR',
+35 silly get     age: '4384',
+35 silly get     'cache-control': 'public, max-age=300',
+35 silly get     etag: 'W/"e0b4c6934f9881d82102a3b51f4ed785"',
+35 silly get     'last-modified': 'Sun, 05 Jan 2020 11:17:26 GMT',
+35 silly get     vary: 'accept-encoding, accept',
+35 silly get     'cf-cache-status': 'HIT',
+35 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+35 silly get     server: 'cloudflare',
+35 silly get     'content-encoding': 'gzip' } ]
+36 verbose get saving express to /home/vagrant/.npm/registry.npmjs.org/express/.cache.json
+37 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+38 silly rollbackFailedOptional Starting
+39 silly rollbackFailedOptional Finishing
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 verbose stack Error: ENOENT: no such file or directory, open '/home/ubuntu/app/ejs,'
+42 verbose stack     at Error (native)
+43 verbose cwd /home/ubuntu/app
+44 error Linux 4.4.0-170-generic
+45 error argv "/usr/bin/node" "/usr/bin/npm" "install" "ejs," "mongoose," "express"
+46 error node v6.17.1
+47 error npm  v3.10.10
+48 error path /home/ubuntu/app/ejs,
+49 error code ENOENT
+50 error errno -2
+51 error syscall open
+52 error enoent ENOENT: no such file or directory, open '/home/ubuntu/app/ejs,'
+53 error enoent ENOENT: no such file or directory, open '/home/ubuntu/app/ejs,'
+53 error enoent This is most likely not a problem with npm itself
+53 error enoent and is related to npm not being able to find a file.
+54 verbose exit [ -2, true ]

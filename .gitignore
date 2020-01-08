@@ -1,0 +1,4 @@
+.vagrant
+.git
+node_modules
+ubuntu-xenial*
